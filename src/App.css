@@ -1,0 +1,142 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 0.3em;
+  /* float: left;
+  margin: auto; */
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
+  line-height: 1;
+  color: #ffffff;
+}
+
+.question-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.answers-container {
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.answers {
+  margin: 0.5rem;
+}
+
+.answer-button {
+  background-color: aliceblue;
+  min-width: 20rem;
+  min-height: 0.1rem;
+}
+
+.answers :hover {
+  background-color: #ffbd35;
+}
+
+.answer-text {
+  color: darkblue;
+  font-size: 5rem;
+}
+
+.timer {
+  margin-top: 50px;
+  font-size: 100px;
+  color: #ffffff;
+}
+
+.image {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.modal__backdrop {
+  background: rgba(0, 0, 0, 0.65);
+  bottom: 0;
+  left: 0;
+  overflow: auto;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+.correct {
+  text-align: center;
+  justify-content: center;
+  display: block;
+}
+
+.modal__container {
+  background: #fff;
+  border-radius: 5px;
+  max-width: 100%;
+  margin: 50px auto;
+  padding: 15px;
+  width: 560px;
+}
+
+.modal__title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+button {
+  background: #8c54ff;
+  border: 0;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  margin-right: 10px;
+  padding: 10px 15px;
+  transition: transform 100ms ease-out;
+}
+
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
