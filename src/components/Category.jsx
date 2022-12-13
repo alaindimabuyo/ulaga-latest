@@ -4,7 +4,7 @@ import { Outlet, Link } from "react-router-dom";
 export const Category = () => {
   return (
     <>
-      <h1>Choose a category</h1>
+      <h1>Game-based Activities in Mathemaics Enhance Skills (GAMES)</h1>
       {mainMenu.map((category) => (
         <div className="card">
           <Link to={`questions/${category.id}`}>
