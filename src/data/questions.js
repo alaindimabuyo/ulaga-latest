@@ -77,11 +77,11 @@ import students1 from "../assets/students1.png";
 import mangoes from "../assets/mangoes.png";
 import schoolsupplies from "../assets/schoolsupplies.png";
 import markets from "../assets/markets.png";
-import operations1 from "../assets/operations1.png";
-import operations2 from "../assets/operations2.png";
-import operations3 from "../assets/operations3.png";
-import operations4 from "../assets/operations4.png";
-import operations5 from "../assets/operations5.png";
+import operations1 from "../assets/Operations1.png";
+import operations2 from "../assets/Operations2.png";
+import operations3 from "../assets/Operations3.png";
+import operations4 from "../assets/Operations4.png";
+import operations5 from "../assets/Operations5.png";
 import tomato from "../assets/tomato.png";
 import balls from "../assets/balls.png";
 import wallet from "../assets/wallet.png";
@@ -95,7 +95,6 @@ import manggaanswer from "../assets/manggaanswer.png";
 import operationn from "../assets/operationn.png";
 import watermelon from "../assets/watermelon.png";
 import apple from "../assets/apple.png";
-import check from "../assets/check.png";
 
 import orange from "../assets/orange.png";
 import totmato from "../assets/totmatoo.png";
@@ -108,8 +107,7 @@ export const mainMenu = [
       {
         id: 0,
         image: imageone,
-        question:
-          "Pilan la reng Mansanas atsu keng imahi?",
+        question: "Pilan la reng Mansanas atsu keng imahi?",
         answers: [
           { answer: "532", image: apple, correct: true },
           { answer: "531", image: apple, correct: false },
@@ -321,7 +319,8 @@ export const mainMenu = [
         id: 0,
         question:
           `Pilinan ya ing (z) nung Zero Property ya ampong (c) nung Commutative Property ya.
-          ` +"\n" +
+          ` +
+          "\n" +
           `23 + 54 = 54 + 23`,
         image: numbersforkids,
         answers: [
@@ -441,22 +440,26 @@ export const mainMenu = [
         image: schoolsupplies,
         answers: [
           {
-            answer: "P240.50 notebooks, P125.50 ballpen ampo krayola, P750 diksyunaryu",
+            answer:
+              "P240.50 notebooks, P125.50 ballpen ampo krayola, P750 diksyunaryu",
             image: suppliesanswer,
             correct: true,
           },
           {
-            answer: "P250.50 notebooks, P126 ballpen ampo krayola, P670 diksyunaruyu",
+            answer:
+              "P250.50 notebooks, P126 ballpen ampo krayola, P670 diksyunaruyu",
             image: suppliesanswer,
             correct: false,
           },
           {
-            answer: "P235 notebooks, P126.50 ballpen ampo krayola, P660 diksyunaryu",
+            answer:
+              "P235 notebooks, P126.50 ballpen ampo krayola, P660 diksyunaryu",
             image: suppliesanswer,
             correct: false,
           },
           {
-            answer: "P365 notebooks, P123 ballpen a mpo krayola, P530 diksyunaryu",
+            answer:
+              "P365 notebooks, P123 ballpen a mpo krayola, P530 diksyunaryu",
 
             image: suppliesanswer,
             correct: false,
@@ -1218,7 +1221,11 @@ export const mainMenu = [
             image: false,
             correct: false,
           },
-          { answer: "12 la reng pizza e-mepangan", image: false, correct: true },
+          {
+            answer: "12 la reng pizza e-mepangan",
+            image: false,
+            correct: true,
+          },
           { answer: "5 la reng metagan.", image: false, correct: false },
         ],
       },
@@ -1334,7 +1341,8 @@ export const mainMenu = [
             correct: false,
           },
           {
-            answer: "bilang da reng sampagang papil na laman ning balang klasi.",
+            answer:
+              "bilang da reng sampagang papil na laman ning balang klasi.",
             image: false,
             correct: true,
           },
@@ -1387,7 +1395,11 @@ export const mainMenu = [
             image: false,
             correct: true,
           },
-          { answer: "5 a notebooks ampo 2 a kule", image: false, correct: false },
+          {
+            answer: "5 a notebooks ampo 2 a kule",
+            image: false,
+            correct: false,
+          },
         ],
       },
     ],
