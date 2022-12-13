@@ -1,5 +1,8 @@
 import React, { useRef, useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import useSound from "use-sound";
+import ding from "../assets/ding.mp3";
+import wrong from "../assets/wrong.mp3";
 import { mainMenu } from "../data/questions";
 import { Outlet, Link } from "react-router-dom";
 import Modal from "./Modal";
@@ -13,7 +16,10 @@ const Questions = (props) => {
   const [isCorect, setIsCorrect] = useState(null);
 
   const [timeLeft, setTimeLeft] = useState(50);
-
+  const [playTrue] = useSound(ding);
+  const [playFalse] = useSound(wrong, {
+    volume: 0.5,
+  });
   const toggleModal = (correct) => {
     setModalIsOpen(!isModalOpen);
     setIsCorrect(correct);
@@ -26,6 +32,7 @@ const Questions = (props) => {
           (el) => el.correct === true
         )
       );
+      playTrue();
     }
     if (!timeLeft) return;
 
@@ -48,7 +55,7 @@ const Questions = (props) => {
   const setPreviousCount = () => {
     setCount(count - 1);
     setTimeLeft(30);
-    console.log(mainMenu[pageID].questions.length, count)
+    console.log(mainMenu[pageID].questions.length, count);
     if (count - 1 === 0) {
       setCount(0);
       setPageID(pageID + 1);
@@ -60,7 +67,7 @@ const Questions = (props) => {
   if (!mainMenu[pageID]) {
     return (
       <div>
-        <h1 style={{fontSize: '200px'}}>THE END</h1>
+        <h1 style={{ fontSize: "200px" }}>THE END</h1>
         <Link to={`/`}>
           <p style={{ color: "white" }}>Back to Categories</p>{" "}
         </Link>
@@ -93,7 +100,17 @@ const Questions = (props) => {
       </div>
       <div className="question-container">
         <div className="header">
-          <h3 style={{ lineHeight: "75px", fontSize: "70px", width: "1500px", textAlign: mainMenu[pageID].questions[count].question.length > 50 ? "initial" : "relative"}}>
+          <h3
+            style={{
+              lineHeight: "75px",
+              fontSize: "70px",
+              width: "1500px",
+              textAlign:
+                mainMenu[pageID].questions[count].question.length > 50
+                  ? "initial"
+                  : "relative",
+            }}
+          >
             {mainMenu[pageID].questions[count].question}
           </h3>
         </div>
@@ -102,18 +119,32 @@ const Questions = (props) => {
             <div className="answers">
               <button
                 className="answer-button"
-                onClick={() => toggleModal(answer)}
+                onClick={() => {
+                  toggleModal(answer);
+                  {
+                    answer.correct === true ? playTrue() : playFalse();
+                  }
+                }}
               >
                 {/* {answer.image && (
                   <img src={answer.image} alt="Logo" width={150} />
                 )} */}
-                <h3 className="answer-text" style={answer.answer.length > 10 ?{fontSize: '3rem'} : {fontSize: ''}}>{answer.answer}</h3>
+                <h3
+                  className="answer-text"
+                  style={
+                    answer.answer.length > 10
+                      ? { fontSize: "3rem" }
+                      : { fontSize: "" }
+                  }
+                >
+                  {answer.answer}
+                </h3>
               </button>
             </div>
           ))}
         </div>
         <div>
-        {/* <button onClick={() => setPreviousCount()}>Previous</button> */}
+          {/* <button onClick={() => setPreviousCount()}>Previous</button> */}
           <button onClick={() => setNextQuestion()}>Next</button>
         </div>
       </div>

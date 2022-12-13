@@ -52,7 +52,11 @@ const Modal = ({ onRequestClose, correct, setNextQuestion }) => {
             MALI YA!
           </h5>
         )}
-        <button type="button" onClick={correct.correct ? closeModal: onRequestClose} style={{ width: "300px" }}>
+        <button
+          type="button"
+          onClick={correct.correct ? closeModal : onRequestClose}
+          style={{ width: "300px" }}
+        >
           {" "}
           Close
         </button>
