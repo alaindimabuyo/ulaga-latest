@@ -109,7 +109,7 @@ export const mainMenu = [
         image: imageone,
         question: "Pilan la reng Mansanas atsu keng imahi?",
         answers: [
-          { answer: "532", image: apple, correct: true },
+          { answer: "535", image: apple, correct: true },
           { answer: "531", image: apple, correct: false },
           { answer: "533", image: apple, correct: false },
           { answer: "534", image: apple, correct: false },
@@ -138,9 +138,9 @@ export const mainMenu = [
             image: watermelon,
             correct: false,
           },
-          { answer: "552", image: watermelon, correct: false },
+          { answer: "550", image: watermelon, correct: true },
           { answer: "567", image: watermelon, correct: false },
-          { answer: "523", image: watermelon, correct: true },
+          { answer: "523", image: watermelon, correct: false },
         ],
       },
       {
@@ -149,7 +149,7 @@ export const mainMenu = [
         image: imagefour,
         answers: [
           { answer: "531", image: orange, correct: false },
-          { answer: "514", image: orange, correct: true },
+          { answer: "534", image: orange, correct: true },
           { answer: "553", image: orange, correct: false },
           { answer: "515", image: orange, correct: false },
         ],
@@ -161,7 +161,7 @@ export const mainMenu = [
         answers: [
           { answer: "555", image: totmato, correct: false },
           { answer: "531", image: totmato, correct: false },
-          { answer: "565", image: totmato, correct: true },
+          { answer: "545", image: totmato, correct: true },
           { answer: "556", image: totmato, correct: false },
         ],
       },
