@@ -62,6 +62,8 @@ import tablecloth from "../assets/tablecloth.png";
 import ones1 from "../assets/ones1.png";
 import ones2 from "../assets/ones2.png";
 import ones3 from "../assets/ones3.png";
+import ones4 from "../assets/ones4.png";
+import ones5 from "../assets/ones5.png";
 import numbers from "../assets/numbers.png";
 import numberstwo from "../assets/numberstwo.png";
 import numbersthree from "../assets/numbersthree.png";
@@ -70,6 +72,8 @@ import numbersfive from "../assets/numbersfive.png";
 import greaterless1 from "../assets/greaterless1.png";
 import greaterless2 from "../assets/greaterless2.png";
 import greaterless3 from "../assets/greaterless3.png";
+import greaterless4 from "../assets/greaterless4.png";
+import greaterless5 from "../assets/greaterless5.png";
 import numbersforkids from "../assets/numberskids.png";
 import zz from "../assets/zz.png";
 import cc from "../assets/cc.png";
@@ -109,7 +113,7 @@ export const mainMenu = [
         image: imageone,
         question: "Pilan la reng Mansanas atsu keng imahi?",
         answers: [
-          { answer: "535", image: apple, correct: true },
+          { answer: "545", image: apple, correct: true },
           { answer: "531", image: apple, correct: false },
           { answer: "533", image: apple, correct: false },
           { answer: "534", image: apple, correct: false },
@@ -201,6 +205,28 @@ export const mainMenu = [
           { answer: "ones", correct: false },
           { answer: "tens", correct: false },
           { answer: "hundreds", correct: true },
+          { answer: "thousands", correct: false },
+        ],
+      },
+      {
+        id: 3,
+        question: "King bilang a 895, nanu ya ing bilang atyu king hundreds?",
+        image: ones4,
+        answers: [
+          { answer: "8", correct: true },
+          { answer: "9", correct: false },
+          { answer: "5", correct: false },
+          { answer: "4", correct: false },
+        ],
+      },
+      {
+        id: 4,
+        question: "Nanu ya place value ing 4 king bilang 649?",
+        image: ones5,
+        answers: [
+          { answer: "ones", correct: false },
+          { answer: "tens", correct: true },
+          { answer: "hundreds", correct: false },
           { answer: "thousands", correct: false },
         ],
       },
@@ -306,6 +332,30 @@ export const mainMenu = [
           { answer: "<", image: lessthangator, correct: false },
           { answer: ">", image: greaterthangator, correct: false },
           { answer: "=", image: equalsign, correct: true },
+          { answer: "Alang sagut", correct: false },
+        ],
+      },
+      {
+        id: 2,
+        question:
+          "Mekatipun yang P260 balang duminggu i Beth, mekatipun ne man P240 i Gina. Ikumpara la ring tipun ng Beth at Gina",
+        image: greaterless4,
+        answers: [
+          { answer: "<", image: lessthangator, correct: false },
+          { answer: ">", image: greaterthangator, correct: true },
+          { answer: "=", image: equalsign, correct: false },
+          { answer: "Alang sagut", correct: false },
+        ],
+      },
+      {
+        id: 2,
+        question:
+          "Pinupul yang 570 atis ampong 455 a bayabas i Tang Pedro. Ikumpara la ring pupul ng atis karing pupul nang bayabas",
+        image: greaterless5,
+        answers: [
+          { answer: "<", image: lessthangator, correct: false },
+          { answer: ">", image: greaterthangator, correct: true },
+          { answer: "=", image: equalsign, correct: false },
           { answer: "Alang sagut", correct: false },
         ],
       },
