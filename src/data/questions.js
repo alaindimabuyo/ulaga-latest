@@ -2055,19 +2055,19 @@ export const mainMenu = [
         answers: [
           {
             answer:
-              "20 Santan, 30 San Francisco, 10 Rose, 15 Sampaguita, 60 White Angel",
+              "20 Santan, 30 San Francisco, 10 Rose, 15 Sampaguita, 50 White Angel",
             image: false,
             correct: true,
           },
           {
             answer:
-              "30 Santan, 20 San Francisco, 10 Rose, 60 Sampaguita, 15 White Angel",
+              "30 Santan, 20 San Francisco, 10 Rose, 50 Sampaguita, 15 White Angel",
             image: false,
             correct: false,
           },
           {
             answer:
-              "20 Santan, 20 San Francisco, 15 Rose, 10 Sampaguita, 60 White Angel",
+              "20 Santan, 20 San Francisco, 15 Rose, 10 Sampaguita, 50 White Angel",
             image: false,
             correct: false,
           },
