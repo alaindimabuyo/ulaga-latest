@@ -1560,7 +1560,7 @@ export const mainMenu = [
         question:
           "Atin yang 3 anak I Riza. Sinali yang 6 a mansanas at ipitna nala karing anak na. Pilang mansanas ing tanggapan ning baling anak na? Nanu ya ing NUMBER SENTENCE?",
         answers: [
-          { answer: "3 ÷ 6 = N", image: false, correct: false },
+          { answer: "3 + 6 = N", image: false, correct: false },
           {
             answer: "3 - 6 = N",
             image: false,
@@ -1871,7 +1871,7 @@ export const mainMenu = [
         answers: [
           { answer: "1/6, 5/6, 1/6, 4/6", image: false, correct: false },
           { answer: "5/6, 1/6, 1/6, 4/6", image: false, correct: false },
-          { answer: "1/6, 1/6, 4/6, 5/6", image: false, correct: true },
+          { answer: "1/6, 2/6, 3/6, 4/6", image: false, correct: true },
           { answer: "1/6, 5/6, 4/6, 1/6", image: false, correct: false },
         ],
       },

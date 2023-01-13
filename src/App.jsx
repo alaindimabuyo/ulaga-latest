@@ -26,9 +26,18 @@ function App() {
           style={{ display: "none" }}
         />
         <Routes>
-          <Route path="/" element={<Category />} />
-          <Route path="/questions/:id" element={<Questions />} />
-          <Route path="*" element={<PageNotFound />} />
+          <Route
+            path="/"
+            element={<Category />}
+          />
+          <Route
+            path="/questions/:id"
+            element={<Questions />}
+          />
+          <Route
+            path="*"
+            element={<PageNotFound />}
+          />
         </Routes>
       </div>
     </Router>
