@@ -754,10 +754,10 @@ export const mainMenu = [
           "Mekatipun yang 236 a straw i Adela a gamitan na king pamangawa king proyektu na. Kareti, ating 4 a straw a kule gintu. Pilan la ring straw a e kule gintu?",
         image: straw,
         answers: [
-          { answer: "P233.00", correct: false },
-          { answer: "P232.00", correct: true },
-          { answer: "P234.00 ", correct: false },
-          { answer: "P235.00", correct: false },
+          { answer: "233", correct: false },
+          { answer: "232", correct: true },
+          { answer: "234", correct: false },
+          { answer: "235", correct: false },
           ,
         ],
       },
@@ -1208,7 +1208,11 @@ export const mainMenu = [
         question:
           "Ating 4 a kaung pizza. Ing balang kaun atin yang 8 pirasu. Nung 20 pirasu la ring mepangan, pilan lang pirasu ring e-mepangan? Nanu ya ing KUTANG?",
         answers: [
-          { answer: "Bilang da reng pizza.", image: false, correct: false },
+          {
+            answer: "Bilang da reng kaung pizza.",
+            image: false,
+            correct: false,
+          },
           {
             answer: "Bilang da reng pirasu e-mepangan.",
             image: false,
