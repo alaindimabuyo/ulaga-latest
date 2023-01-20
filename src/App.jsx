@@ -12,19 +12,19 @@ import { PageNotFound } from "./pages/404";
 import "./App.css";
 import { useEffect } from "react";
 
-function App() {
-  //const [isPlaying, setIsPlaying] = useState(false);
+const audio = new Audio();
 
+// set the source of the audio file
+audio.src = bgmusic;
+
+// set the loop and autoplay properties to true
+audio.loop = true;
+audio.autoplay = true;
+
+function App() {
   return (
     <Router>
       <div className="App">
-        <iframe
-          src={bgmusic}
-          id="bgsound"
-          autoplay
-          loop
-          style={{ display: "none" }}
-        />
         <Routes>
           <Route
             path="/"
