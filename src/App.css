@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media (max-width: 480px) {
   #root {
     padding: 1rem;
   }
@@ -17,7 +17,7 @@
   }
 
   .answer-button {
-    min-width: 15rem;
+    min-width: 15rem !important;
   }
 
   .timer {
