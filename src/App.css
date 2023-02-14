@@ -1,37 +1,37 @@
 @media (max-width: 768px) {
   #root {
-    padding: 1rem !important;
+    padding: 1rem;
   }
 
   .logo {
-    height: 4em !important;
-    padding: 1em !important;
+    height: 4em;
+    padding: 1em;
   }
 
   .header {
-    font-size: large !important;
+    font-size: large;
   }
 
   .answers-container {
-    grid-template-columns: 1fr !important;
+    grid-template-columns: 1fr;
   }
 
   .answer-button {
-    min-width: 15rem !important;
+    min-width: 15rem;
   }
 
   .timer {
-    font-size: 80px !important;
+    font-size: 80px;
   }
 
   .image {
-    margin-left: 50px !important;
-    margin-right: 50px !important;
+    margin-left: 50px;
+    margin-right: 50px;
   }
 
   .modal__container {
-    max-width: 90% !important;
-    width: auto !important;
+    max-width: 90%;
+    width: auto;
   }
 }
 #root {
