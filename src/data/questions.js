@@ -422,7 +422,7 @@ export const mainMenu = [
   },
   {
     id: 5,
-    category: "Solve non-routine word problem invaluing subtraction",
+    category: "Solve non-routine word problem involving subtraction",
     questions: [
       {
         id: 0,
@@ -452,7 +452,7 @@ export const mainMenu = [
   },
   {
     id: 6,
-    category: "Solve routine word problem invaluing addition",
+    category: "Solve routine word problem involving addition",
 
     questions: [
       {
@@ -642,7 +642,7 @@ export const mainMenu = [
   },
   {
     id: 8,
-    category: "Solve routine word problem invaluing subtraction",
+    category: "Solve routine word problem involving subtraction",
     questions: [
       {
         id: 0,
@@ -733,7 +733,7 @@ export const mainMenu = [
   },
   {
     id: 9,
-    category: "Solve non-routine word problem invaluing subtraction",
+    category: "Solve non-routine word problem involving subtraction",
     questions: [
       {
         id: 0,
@@ -921,7 +921,7 @@ export const mainMenu = [
 
   {
     id: 11,
-    category: "Solve routine word problem invaluing addition and subtraction",
+    category: "Solve routine word problem involving addition and subtraction",
     questions: [
       {
         id: 0,
@@ -1059,7 +1059,7 @@ export const mainMenu = [
   },
   {
     id: 12,
-    category: "Solve non-routine problem invaluing multiplication",
+    category: "Solve non-routine problem involving multiplication",
     questions: [
       {
         id: 0,
@@ -1200,7 +1200,7 @@ export const mainMenu = [
   {
     id: 13,
     category:
-      "Solve routine word problem invaluing multiplication and subtraction",
+      "Solve routine word problem involving multiplication and subtraction",
     questions: [
       {
         id: 0,
@@ -1331,7 +1331,7 @@ export const mainMenu = [
   },
   {
     id: 14,
-    category: "Solve non-routine word problem invaluing division",
+    category: "Solve non-routine word problem involving division",
     questions: [
       {
         id: 0,
@@ -1733,7 +1733,7 @@ export const mainMenu = [
   },
   {
     id: 17,
-    category: "Solve non-routine word problem invaluing fraction",
+    category: "Solve non-routine word problem involving fraction",
     questions: [
       {
         id: 0,
@@ -1997,7 +1997,7 @@ export const mainMenu = [
   },
   {
     id: 21,
-    category: "Solve non-routine problem invaluing square tiles",
+    category: "Solve non-routine problem involving square tiles",
     questions: [
       {
         id: 0,
