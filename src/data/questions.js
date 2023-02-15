@@ -1931,7 +1931,7 @@ export const mainMenu = [
   },
   {
     id: 20,
-    category: "Arrange decimilar fraction in increasing and decreasing order",
+    category: "Arrange dissimilar fraction in increasing and decreasing order",
     questions: [
       {
         id: 0,
