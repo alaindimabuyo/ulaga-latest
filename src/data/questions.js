@@ -2027,7 +2027,7 @@ export const mainMenu = [
   },
   {
     id: 22,
-    category: "Refer data presented in a photograph",
+    category: "Infer data presented in a photograph",
     questions: [
       {
         id: 0,
