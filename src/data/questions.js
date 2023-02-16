@@ -1865,7 +1865,7 @@ export const mainMenu = [
   },
   {
     id: 19,
-    category: "Arange similar fraction in increasing and decreasing order",
+    category: "Arrange similar fraction in increasing and decreasing order",
     questions: [
       {
         id: 0,
