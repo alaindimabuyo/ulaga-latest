@@ -16,6 +16,7 @@ export const Category = () => {
           </Link>
         </div>
       ))}
+      <h3 className="footer">Proponent: Clarissa Abarquez</h3>
     </>
   );
 };
